@@ -1,3 +1,7 @@
-export function setup() {
-  return "hello world";
-}
+export { CustomJestEnvironment } from "./CustomJestEnvironment";
+export {
+  provider,
+  mockProvider,
+  controller,
+  createTestingModule,
+} from "./setup";
