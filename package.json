@@ -1,6 +1,6 @@
 {
   "name": "@joern.kalz/nest-test-setup",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Convenient test setup for Nest",
   "files": [
     "dist/**/*",
