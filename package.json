@@ -6,8 +6,8 @@
     "dist/**/*",
     "env.js"
   ],
-  "main": "dist/index.js",
-  "types": "lib/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "tsc --project tsconfig-prod.json",
