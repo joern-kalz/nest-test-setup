@@ -9,7 +9,9 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "lint": "eslint 'src/**/*.ts'",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,9 @@
   "homepage": "https://github.com/joern-kalz/nest-test-setup#readme",
   "devDependencies": {
     "@tsconfig/node10": "^1.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "eslint": "^8.30.0",
     "typescript": "^4.9.4"
   }
 }
