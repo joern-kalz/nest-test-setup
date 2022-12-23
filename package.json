@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Convenient test setup for Nest",
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "env.js"
   ],
   "main": "dist/index.js",
   "types": "lib/index.d.ts",
@@ -32,6 +33,8 @@
   },
   "homepage": "https://github.com/joern-kalz/nest-test-setup#readme",
   "devDependencies": {
+    "@nestjs/common": "^9.2.1",
+    "@nestjs/testing": "^9.2.1",
     "@tsconfig/node10": "^1.0.9",
     "@types/jest": "^29.2.4",
     "@typescript-eslint/eslint-plugin": "^5.47.0",
@@ -42,9 +45,5 @@
     "prettier": "2.8.1",
     "ts-jest": "^29.0.3",
     "typescript": "^4.9.4"
-  },
-  "dependencies": {
-    "@nestjs/common": "^9.2.1",
-    "@nestjs/testing": "^9.2.1"
   }
 }

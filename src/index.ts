@@ -1,4 +1,3 @@
-export { CustomJestEnvironment } from "./CustomJestEnvironment";
 export {
   provider,
   mockProvider,
